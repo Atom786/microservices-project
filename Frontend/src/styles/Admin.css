@@ -1,0 +1,67 @@
+.admin-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-product {
+  margin-bottom: 20px;
+}
+
+.add-product input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.add-product button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.add-product button:hover {
+  background-color: #0056b3;
+}
+
+.admin-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-container li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 400px;
+  margin: auto;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  margin-left: 5px;
+}
+
+.edit-btn:hover {
+  background-color: #e0a800;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}

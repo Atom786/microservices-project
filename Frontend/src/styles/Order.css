@@ -1,0 +1,45 @@
+.orders-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.order-list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.place-order {
+  margin-bottom: 20px;
+}
+
+.place-order input {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.place-order button {
+  padding: 8px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.place-order button:hover {
+  background-color: #218838;
+}
+
+.orders-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.orders-container li {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
